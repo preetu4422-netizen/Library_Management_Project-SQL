@@ -140,13 +140,13 @@ SET member_address = '156 Oak St'
 WHERE member_address = '123 Main St';
 ```
 
-3.**Delete an issued record:**
+3. **Delete an issued record:**
 ```sql
 DELETE FROM issued
 WHERE issued_id = 'IS1021';
 ```
 
-4.**Books issued by a specific employee:**
+4. **Books issued by a specific employee:**
 ```sql
 SELECT * FROM issued
 where issued_emp_id = 'E104';
