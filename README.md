@@ -2,7 +2,7 @@
 
 ## Project Overview
 
-**Project Title**:  Library_Management_Project-SQL
+**Project Title**:  Library Management Project-SQL
 
 This project is a Library Management System built entirely using SQL. It demonstrates the creation and management of a relational database for handling library operations, including branches, employees, books, members, issued books, and returns.The database schema is normalized with proper primary keys, foreign keys, and constraints to maintain data integrity.
 
