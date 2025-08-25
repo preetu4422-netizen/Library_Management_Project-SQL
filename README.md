@@ -8,11 +8,11 @@ This project is a Library Management System built entirely using SQL. It demonst
 
 ## Objectives
 
-1. **Set up a library management database: Design and create a relational database for managing branches, employees, members, books, and transactions.
-2. **Data Integrity: Define primary keys, foreign keys, and constraints to maintain consistency and prevent invalid data.
-3. **Library Operations: Implement SQL queries for adding, updating, deleting, and retrieving library records (books, members, issued and returned books).
-4. **Reporting & Insights: Use SQL queries to generate reports such as most issued books, rental income by category, members with multiple issued books, and pending returns.
-5. **Scalability: Provide a structured database that can be extended with advanced features like stored procedures, triggers, and views for real-world applications.
+1. **Set up a library management database**: Design and create a relational database for managing branches, employees, members, books, and transactions.
+2. **Data Integrity**: Define primary keys, foreign keys, and constraints to maintain consistency and prevent invalid data.
+3. **Library Operations**: Implement SQL queries for adding, updating, deleting, and retrieving library records (books, members, issued and returned books).
+4. **Reporting & Insights**: Use SQL queries to generate reports such as most issued books, rental income by category, members with multiple issued books, and pending returns.
+5. **Scalability**: Provide a structured database that can be extended with advanced features like stored procedures, triggers, and views for real-world applications.
 
 ## Project Structure
 
@@ -116,10 +116,10 @@ references branch(branch_id);
 ```
 ## 2. Data Exploration & Operations
 
-**Insert Data**: Add new records to books, members, and issued.
-**Update Data**: Modify member details (e.g., update addresses).
-**Delete Data**: Remove issued records safely with constraints.
-**Foreign Key Constraints**: Ensure issued/returned books must exist in books, and issued records must be linked to members and employees.
+1. **Insert Data**: Add new records to books, members, and issued.
+2. **Update Data**: Modify member details (e.g., update addresses).
+3. **Delete Data**: Remove issued records safely with constraints.
+4. **Foreign Key Constraints**: Ensure issued/returned books must exist in books, and issued records must be linked to members and employees.
 
 ## 3. Data Analysis & Queries
 
@@ -228,12 +228,12 @@ From the queries and analysis performed on the library_project database, we obse
 
 The SQL queries generated the following types of reports:
 
-**Issued Book Report**: Which books were issued by which employee.
-**Member Activity Report**: Members with multiple issued books.
-**Category Report**: Rental income and number of books grouped by category.
-**Overdue Report**: List of books that have not been returned.
-**Branch & Employee Report**: Employees along with their branch manager’s name and details.
-**Summary Tables**:
+1. **Issued Book Report**: Which books were issued by which employee.
+2. **Member Activity Report**: Members with multiple issued books.
+3. **Category Report**: Rental income and number of books grouped by category.
+4. **Overdue Report**: List of books that have not been returned.
+5. **Branch & Employee Report**: Employees along with their branch manager’s name and details.
+6. **Summary Tables**:
       books_counts → Tracks how often each book was issued.
       booksprice_above_7 → Identifies higher-value books.   
 
